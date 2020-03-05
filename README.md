@@ -20,6 +20,7 @@ Press the right mouse button to place a flag.
 # :computer: How to compile this project
 From the root folder:
 
+    javac -d ./ src/util/*.java
     javac -d ./ src/model/*.java
     javac -d ./ src/view/*.java
     javac -d ./ src/controller/*.java
